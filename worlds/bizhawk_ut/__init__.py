@@ -29,7 +29,7 @@ def newUT(cls, name: str, bases: Tuple[type, ...], namespace: Dict[str, Any]) ->
     async def my_game_watcher(self, ctx) -> None:
         if getattr(ctx, "tracker_enabled", False):
             try:
-                if ctx.player_id is not None and ctx.multiworld is not None:
+                if ctx.tracker_core.player_id is not None and ctx.tracker_core.multiworld is not None:
                     ctx.updateTracker()
             except Exception:
                 tb = traceback.format_exc()
