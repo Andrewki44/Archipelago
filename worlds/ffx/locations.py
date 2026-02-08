@@ -259,15 +259,16 @@ FFXOtherLocations: List[FFXLocationData] = [ FFXLocationData(location[1]+OtherOf
     ("CotSF: Dead End West of Third Intersection (Primer)",                         25, False), # Al Bhed Primer XXV
     ("Omega Ruins: North Side of Four Chest Intersection (Primer)",                 26, False), # Al Bhed Primer XXVI
  
-    #("Macalania Woods: Spherimorph Jecht Sphere",                             27, False),
-    #("Besaid: Village - East of Temple (Jecht Sphere)",                       28, False),
-    #("Jecht Sphere - S.S. Liki",                                              29, False),
-    #("Luca: Stadium Basement A - East Locker Hall (Jecht Sphere)",            30, False),
-    #("Mi'ihen: Oldroad, South - South End (Jecht Sphere)",                    31, False),
-    #("MRR: Precipice - South of Large Elevator (Auron's Sphere)",             32, False),
-    #("Jecht Sphere - Moonflow",                                               33, False),
-    #("Jecht Sphere - Thunder Plains",                                         34, False),
-    #("Braska's Sphere - Mt. Gagazet",                                         35, False),
+    ("Macalania Woods: After Spherimorph (Jecht's Sphere)",                         27, False), # Jecht Sphere 1
+    ("Macalania Woods: South - Near Entrance (Jecht's Sphere)",                     52, False), # Jecht Sphere 2
+    ("Besaid: Village - East of Temple (Jecht's Sphere)",                           28, False), # Jecht Sphere 3
+    ("S.S. Liki: Captains Room (Jecht's Sphere)",                                   29, False), # Jecht Sphere 4
+    ("Luca: Stadium Basement A - East Locker Hall (Jecht's Sphere)",                30, False), # Jecht Sphere 5
+    ("Mi'ihen: Oldroad, South - South End (Jecht's Sphere)",                        31, False), # Jecht Sphere 6
+    ("MRR: Precipice - South of Large Elevator (Auron's Sphere)",                   32, False), # Auron Sphere
+    ("Moonflow: South Warf (Jecht's Sphere)",                                       33, False), # Jecht Sphere 7
+    ("Thunder Plains: South - Near Tower (Jecht's Sphere)",                         34, False), # Jecht Sphere 8
+    ("Gagazet: Trail - Side Road (Braska's Sphere)",                                35, False), # Braska Sphere
                                        
     #("S.S. Winno: Jecht Shot (Event)",                          36, False),
     ("Guadosalam: Automatic Upon Leaving Farplane (Event)",      37, False), # Brotherhood Upgrade
