@@ -23,6 +23,7 @@
 *.gb
 *.gbc
 *.gba
+*.nds
 *.wixobj
 *.lck
 *.db3
@@ -199,3 +200,6 @@ _speedups.html
 .LSOverride
 Thumbs.db
 [Dd]esktop.ini
+
+# Fuzzer
+/fuzz_output/
